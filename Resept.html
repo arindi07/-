@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книга домохозяйки </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header header-main">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="#" class="logo">
+                        <img src="images/logo.svg" alt="" class="logo__img">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item"><a href="glavnoe.html" class="menu__list-link">Главная</a></li>
+                            <li class="menu__list-item"><a href="clining.html" class="menu__list-link">Уборка</a></li>
+                            <li class="menu__list-item"><a href="zametki.html" class="menu__list-link">Заметки</a></li>
+                            <li class="menu__list-item"><a href="account.html" class="menu__list-link">Мой аккаунт</a>
+                            </li>
+                            <li class="menu__list-item"><a href="vxod.html" class="menu__list-link">Вход</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main-resept">
+            <section class="chose-resept ">
+                <div class="container-resept">
+                    <h2 class="section-title">
+                        Рецепты
+                    </h2>
+                    <div class="tabs">
+                        <div class="tabs__btn">
+                            <button class="tabs__btn-item tabs__btn-item--active" data-button="content-1">Выпечка и десерты</button>
+                            <button class="tabs__btn-item" data-button="content-2">Основные блюда</button>
+                            <button class="tabs__btn-item" data-button="content-3">Салаты</button>
+                            <button class="tabs__btn-item" data-button="content-4">Супы</button>
+                        </div>
+                        <div class="tabs__content">
+                            <div class="tabs__content-item tabs__content-item--active" id="content-1">
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-2.jfif" alt="">
+                                    <div class="car__content">
+                                        <h4 class="card__title">Брауни</h4>
+                                        <p class="card__text">6 ингредиентов</p>
+                                        <p class="card__price">40 мин</p>
+                                        <label>
+                                            <input type="checkbox" name="remember" id="remember" checked > Избранное
+                                        </label>
+                                    </div>
+                                    <a href="brauni.html" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-1.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Сырники из творога</h4>
+                                    <p class="card__text">5 ингредиентов</p>
+                                    <p class="card__price">30 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="Srniki.html" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-3.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Творожнй кекс</h4>
+                                    <p class="card__text">8 ингредиентов</p>
+                                    <p class="card__price">30 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-4.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Пирог "Зебра" </h4>
+                                    <p class="card__text">7 ингредиентов</p>
+                                    <p class="card__price">30 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-5.jfif" alt="">
+                                    <div class="car__content">
+                                        <h4 class="card__title">Банановые панкейки</h4>
+                                        <p class="card__text">9 ингредиентов</p>
+                                        <p class="card__price">1 час</p>
+                                        <label>
+                                            <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                        </label>
+                                    </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-6.jpg" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Торт "Сметанник"</h4>
+                                    <p class="card__text">8 ингредиентов</p>
+                                    <p class="card__price">1час 5мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-7.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Торт "Птичье молоко"</h4>
+                                    <p class="card__text">10 ингредиентов</p>
+                                    <p class="card__price">1час 40мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked > Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-8.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Оладьи </h4>
+                                    <p class="card__text">9 ингредиентов</p>
+                                    <p class="card__price">30 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-9.jfif" alt="">
+                                    <div class="car__content">
+                                        <h4 class="card__title">Наполеон</h4>
+                                        <p class="card__text">16 ингредиентов</p>
+                                        <p class="card__price">4 часа</p>
+                                        <label>
+                                            <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                        </label>
+                                    </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-10.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Ленивые вареники</h4>
+                                    <p class="card__text">7 ингредиентов</p>
+                                    <p class="card__price">35 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-11.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Банановый кекс</h4>
+                                    <p class="card__text">6 ингредиентов</p>
+                                    <p class="card__price">1час 30мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-12.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Шоколодный фондан </h4>
+                                    <p class="card__text">9 ингредиентов</p>
+                                    <p class="card__price">45 мин</p><label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="tabs__content-item" id="content-2">
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-13.jfif" alt="">
+                                    <div class="car__content">
+                                        <h4 class="card__title">Рататуй</h4>
+                                        <p class="card__text">12 ингредиентов</p>
+                                        <p class="card__price">25 мин</p>
+                                        <label>
+                                            <input type="checkbox" name="remember" id="remember" checked > Избранное
+                                        </label>
+                                    </div>
+                                    <a href="ratatyi.html" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-14.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Хинкали</h4>
+                                    <p class="card__text">11 ингредиентов</p>
+                                    <p class="card__price">45 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-15.jpg" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Картофельное пюре</h4>
+                                    <p class="card__text">6 ингредиентов</p>
+                                    <p class="card__price">50 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-16.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Котлеты по-киевски </h4>
+                                    <p class="card__text">12 ингредиентов</p>
+                                    <p class="card__price">50 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-17.jfif" alt="">
+                                    <div class="car__content">
+                                        <h4 class="card__title">Кордон блю</h4>
+                                        <p class="card__text">9 ингредиентов</p>
+                                        <p class="card__price">40 час</p>
+                                        <label>
+                                            <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                        </label>
+                                    </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-18.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Курица терияки</h4>
+                                    <p class="card__text">8 ингредиентов</p>
+                                    <p class="card__price">1час 5мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-19.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Гуляш</h4>
+                                    <p class="card__text">10 ингредиентов</p>
+                                    <p class="card__price">1час 40мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked > Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-20.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Курица в духовке</h4>
+                                    <p class="card__text">9 ингредиентов</p>
+                                    <p class="card__price">30 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-21.jfif" alt="">
+                                    <div class="car__content">
+                                        <h4 class="card__title">Бургер</h4>
+                                        <p class="card__text">16 ингредиентов</p>
+                                        <p class="card__price">1 часа</p>
+                                        <label>
+                                            <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                        </label>
+                                    </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-22.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Голубцы</h4>
+                                    <p class="card__text">7 ингредиентов</p>
+                                    <p class="card__price">35 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-23.jpg" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Писто</h4>
+                                    <p class="card__text">6 ингредиентов</p>
+                                    <p class="card__price">1час 30мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-24.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Куриные котлеты </h4>
+                                    <p class="card__text">9 ингредиентов</p>
+                                    <p class="card__price">45 мин</p><label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="tabs__content-item" id="content-3">
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-25.jfif" alt="">
+                                    <div class="car__content">
+                                        <h4 class="card__title">Салат Нисуас</h4>
+                                        <p class="card__text">11 ингредиентов</p>
+                                        <p class="card__price">25 мин</p>
+                                        <label>
+                                            <input type="checkbox" name="remember" id="remember" checked > Избранное
+                                        </label>
+                                    </div>
+                                    <a href="nicyas.html" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-26.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Салат "Весенний"</h4>
+                                    <p class="card__text">11 ингредиентов</p>
+                                    <p class="card__price">15 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-27.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Картофельныый салат</h4>
+                                    <p class="card__text">6 ингредиентов</p>
+                                    <p class="card__price">50 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-28.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Салат "Мимоза"</h4>
+                                    <p class="card__text">12 ингредиентов</p>
+                                    <p class="card__price">50 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-29.jfif" alt="">
+                                    <div class="car__content">
+                                        <h4 class="card__title">Салат "Цезарь"</h4>
+                                        <p class="card__text">9 ингредиентов</p>
+                                        <p class="card__price">40 час</p>
+                                        <label>
+                                            <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                        </label>
+                                    </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-30.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Оливье</h4>
+                                    <p class="card__text">8 ингредиентов</p>
+                                    <p class="card__price">1час 5мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-31.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Салат с ананасом</h4>
+                                    <p class="card__text">10 ингредиентов</p>
+                                    <p class="card__price">1час 40мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked > Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-32.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Крабовый салат</h4>
+                                    <p class="card__text">9 ингредиентов</p>
+                                    <p class="card__price">30 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-33.jfif" alt="">
+                                    <div class="car__content">
+                                        <h4 class="card__title">Салат с киноа</h4>
+                                        <p class="card__text">16 ингредиентов</p>
+                                        <p class="card__price">1 часа</p>
+                                        <label>
+                                            <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                        </label>
+                                    </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-34.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Сом Там</h4>
+                                    <p class="card__text">7 ингредиентов</p>
+                                    <p class="card__price">35 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-35.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Шуба</h4>
+                                    <p class="card__text">6 ингредиентов</p>
+                                    <p class="card__price">1час 30мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-36.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Венигрет</h4>
+                                    <p class="card__text">9 ингредиентов</p>
+                                    <p class="card__price">45 мин</p><label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="tabs__content-item" id="content-4">
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-37.jfif" alt="">
+                                    <div class="car__content">
+                                        <h4 class="card__title">Крем-суп из тыквы</h4>
+                                        <p class="card__text">12 ингредиентов</p>
+                                        <p class="card__price">15 мин</p>
+                                        <label>
+                                            <input type="checkbox" name="remember" id="remember" checked > Избранное
+                                        </label>
+                                    </div>
+                                    <a href="souptkva.html" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-38.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Гаспачо</h4>
+                                    <p class="card__text">8 ингредиентов</p>
+                                    <p class="card__price">25 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-39.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Грибной крем-суп</h4>
+                                    <p class="card__text">13 ингредиентов</p>
+                                    <p class="card__price">50 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-40.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Сырный крем суп</h4>
+                                    <p class="card__text">11 ингредиентов</p>
+                                    <p class="card__price">20 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-41.jfif" alt="">
+                                    <div class="car__content">
+                                        <h4 class="card__title">Суп-пюре из рыбы</h4>
+                                        <p class="card__text">8 ингредиентов</p>
+                                        <p class="card__price">40 мин</p>
+                                        <label>
+                                            <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                        </label>
+                                    </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-42.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Щи с беконом</h4>
+                                    <p class="card__text">13 ингредиентов</p>
+                                    <p class="card__price">2час 35мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-43.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Суп с курицей</h4>
+                                    <p class="card__text">16 ингредиентов</p>
+                                    <p class="card__price">2час 40мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked > Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                                <div class="car-card">
+                                    <img class="card__img" src="images/card-44.jfif" alt="">
+                                    <div class="car__content">
+                                    <h4 class="card__title">Борщ</h4>
+                                    <p class="card__text">13 ингредиентов</p>
+                                    <p class="card__price">2 часа 30 мин</p>
+                                    <label>
+                                        <input type="checkbox" name="remember" id="remember" checked> Избранное
+                                    </label>
+                                </div>
+                                    <a href="" class="car__link">Подробнее</a>
+                                </div>
+                            
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <nav class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Реклама</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">FAQ</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Редакция</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Спецпроекты</a></li>
+                    </ul>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Расссылка</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Условия использования</a>
+                        </li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Политика
+                                конфиденциальности</a>
+                        </li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Сообщить об ошибке</a></li>
+                    </ul>
+                </nav>
+                <ul class="app">
+                    <li class="app__item">
+                        <a class="app__item-link" href="#">
+                            <img class="app__item-img" src="images/appstore.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="app__item">
+                        <a class="app__item-link" href="#">
+                            <img class="app__item-img" src="images/googleplay.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

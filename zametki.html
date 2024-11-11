@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    rel="stylesheet"
+  />
+    <title>Заметки</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <header class="header header-main">
+            <div class="container">
+                <div class="header__inner">
+                <a href="#" class="logo">
+                    <img src="images/logo.svg" alt="" class="logo__img">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                      <li class="menu__list-item"><a href="glavnoe.html" class="menu__list-link">Главная</a></li>
+                      <li class="menu__list-item"><a href="Resept.html" class="menu__list-link">Рецепты</a></li>
+                      <li class="menu__list-item"><a href="clining.html" class="menu__list-link">Уборка</a></li>
+                      <li class="menu__list-item"><a href="account.html" class="menu__list-link">Мой аккаунт</a></li>
+                      <li class="menu__list-item"><a href="vxod.html" class="menu__list-link">Вход</a></li>
+                    </ul>
+                </nav>
+                </div>
+            </div>
+        </header>
+    <div class="container-zametki">
+      <div class="header-zametki">
+        <h1>Заметки</h1>
+        <button class="note-add" type="button-zametki"><i class="fa-solid fa-plus"></i></button>
+      </div>
+      <div class="notes"></div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer__menu">
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">Реклама</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">FAQ</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">Редакция</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">Спецпроекты</a></li>
+                </ul>
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">Расссылка</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">Условия использования</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">Политика конфиденциальности</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__menu-link">Сообщить об ошибке</a></li>
+                </ul>
+            </nav>
+            <ul class="app">
+                <li class="app__item">
+                    <a class="app__item-link" href="#">
+                    <img class="app__item-img"src="images/appstore.svg" alt="">
+                    </a>
+                </li>
+                <li class="app__item">
+                    <a class="app__item-link" href="#">
+                    <img class="app__item-img"src="images/googleplay.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+    </footer>
+    </div>
+    <script src="js/zametki.js"></script>
+  </body>
+</html>
